@@ -1,0 +1,8 @@
+node_modules/
+.env
+tg_session.txt
+*.log
+bun.lockb
+package-lock.json
+dist/
+.DS_Store

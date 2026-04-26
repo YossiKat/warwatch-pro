@@ -1,20 +1,17 @@
 {
   "name": "warwatch-pro",
-  "private": true,
-  "version": "0.1.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "Yossi WarZone Control PRO — Real-time Israel Intel Hub",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "node server.js",
+    "tg": "node tg_user.js",
+    "dev": "node server.js & node tg_user.js"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "lucide-react": "^0.344.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react-swc": "^3.5.0",
-    "vite": "^5.1.6"
+    "dotenv": "^16.0.0",
+    "node-fetch": "^2.7.0",
+    "telegram": "^2.26.21",
+    "input": "^1.0.1"
   }
 }
